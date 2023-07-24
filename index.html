@@ -51,21 +51,21 @@
     </script>
   </head>
   <body>
-    <header class="bg-gradient-to-t from-color-prim-1 to-color-prim-2 py-24">
+    <header class="bg-gradient-to-b from-gray-50 to-white py-24">
       <!-- BANNER -->
       <div
         class="flex flex-col lg:flex-row justify-center items-center gap-5 md:container md:mx-auto px-5 md:px-16"
       >
         <div class="space-y-7">
-          <h1 class="text-8xl font-extrabold text-color-white">
+          <h1 class="text-8xl font-extrabold text-color-dark">
             Tea Time at The<br />Tea House
           </h1>
-          <p class="text-md font-medium text-color-white">
+          <p class="text-md font-medium text-color-gray">
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
           <button
-            class="btn btn-primary bg-gradient-to-r from-color-prim-1 to-color-prim-2 border-1 border-white hover:border-white text-white"
+            class="btn btn-primary bg-gradient-to-r from-color-prim-1 to-color-prim-2 border-1 border-none text-white"
           >
             Explore More <img src="images/arrow.png" class="w-[16px]" />
           </button>
@@ -77,24 +77,20 @@
     </header>
     <main class="md:container md:mx-auto px-5 md:px-16">
       <!-- FEATURED PRODUCTS -->
-      <section class="my-24">
+      <section class="my-14 flex flex-col items-center space-y-5">
         <!-- SECTION TITLE/DESC -->
-        <div class="flex flex-col items-center space-y-5">
-          <h1 class="text-5xl font-extrabold text-color-dark text-center">
-            Our Featured Products
-          </h1>
-          <p
-            class="text-base font-medium text-color-gray max-w-4xl text-center"
-          >
-            Indulge in the refreshing fusion of flavors with our signature
-            Boba-infused iced teas at The Tea House – perfect companions for
-            your tea time bliss!
-          </p>
-        </div>
+        <h1 class="text-5xl font-extrabold text-color-dark text-center">
+          Our Featured Products
+        </h1>
+        <p class="text-base font-medium text-color-gray max-w-4xl text-center">
+          Indulge in the refreshing fusion of flavors with our signature
+          Boba-infused iced teas at The Tea House – perfect companions for your
+          tea time bliss!
+        </p>
 
         <!-- CARD CONTAINER -->
         <div
-          class="flex flex-col md:flex-row gap-4 justify-between items-start mt-10"
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-16 gap-16"
         >
           <!-- CARD ITEM -->
           <div class="card w-72 bg-gradient-to-b from-[#F4F4F4] to-white">
@@ -161,8 +157,6 @@
           </div>
         </div>
       </section>
-
-      
     </main>
     <footer></footer>
   </body>
