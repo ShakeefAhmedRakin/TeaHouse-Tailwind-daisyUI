@@ -50,20 +50,22 @@
       };
     </script>
   </head>
-  <body class="bg-gradient-to-b from-white to-gray-50">
-    <header class="my-24 md:container md:mx-auto md:px-16 ">
+  <body>
+    <header class="bg-gradient-to-t from-color-prim-1 to-color-prim-2 py-24">
       <!-- BANNER -->
-      <div class="flex justify-center items-center">
+      <div
+        class="flex flex-col lg:flex-row justify-center items-center gap-5 md:container md:mx-auto px-5 md:px-16"
+      >
         <div class="space-y-7">
-          <h1 class="text-8xl font-extrabold text-color-dark">
-            It's good<br />Tea Time at The<br />Tea House
+          <h1 class="text-8xl font-extrabold text-color-white">
+            Tea Time at The<br />Tea House
           </h1>
-          <p class="text-md font-medium text-color-gray">
+          <p class="text-md font-medium text-color-white">
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
           <button
-            class="btn btn-primary bg-gradient-to-r from-color-prim-1 to-color-prim-2 border-none text-white"
+            class="btn btn-primary bg-gradient-to-r from-color-prim-1 to-color-prim-2 border-1 border-white hover:border-white text-white"
           >
             Explore More <img src="images/arrow.png" class="w-[16px]" />
           </button>
@@ -73,7 +75,95 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="md:container md:mx-auto px-5 md:px-16">
+      <!-- FEATURED PRODUCTS -->
+      <section class="my-24">
+        <!-- SECTION TITLE/DESC -->
+        <div class="flex flex-col items-center space-y-5">
+          <h1 class="text-5xl font-extrabold text-color-dark text-center">
+            Our Featured Products
+          </h1>
+          <p
+            class="text-base font-medium text-color-gray max-w-4xl text-center"
+          >
+            Indulge in the refreshing fusion of flavors with our signature
+            Boba-infused iced teas at The Tea House – perfect companions for
+            your tea time bliss!
+          </p>
+        </div>
+
+        <!-- CARD CONTAINER -->
+        <div
+          class="flex flex-col md:flex-row gap-4 justify-between items-start mt-10"
+        >
+          <!-- CARD ITEM -->
+          <div class="card w-72 bg-gradient-to-b from-[#F4F4F4] to-white">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-1.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-extrabold text-2xl text-color-dark">
+                Milk Tea
+              </h2>
+              <p class="font-semibold text-base text-color-gray">
+                Smooth and creamy, our milk tea is a delightful blend of premium
+                tea, fresh milk, and chewy boba pearls, creating a luscious and
+                satisfying beverage for every tea lover
+              </p>
+            </div>
+          </div>
+          <!-- CARD ITEM -->
+          <div class="card w-72 bg-gradient-to-b from-[#F4F4F4] to-white">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-2.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-extrabold text-2xl text-color-dark">
+                Black Tea
+              </h2>
+              <p class="font-semibold text-base text-color-gray">
+                Experience the rich and robust taste of our carefully selected
+                black teas, perfectly steeped to deliver a bold and invigorating
+                sip with delightful boba pearls
+              </p>
+            </div>
+          </div>
+          <!-- CARD ITEM -->
+          <div class="card w-72 bg-gradient-to-b from-[#F4F4F4] to-white">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-3.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-extrabold text-2xl text-color-dark">
+                Lemon Tea
+              </h2>
+              <p class="font-semibold text-base text-color-gray">
+                Zesty and invigorating, our lemon tea is a citrus-infused
+                sensation that pairs tangy notes with the chewy goodness of boba
+                for a refreshing and uplifting treat
+              </p>
+            </div>
+          </div>
+          <!-- CARD ITEM -->
+          <div class="card w-72 bg-gradient-to-b from-[#F4F4F4] to-white">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-4.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-extrabold text-2xl text-color-dark">
+                Green Tea
+              </h2>
+              <p class="font-semibold text-base text-color-gray">
+                Discover the soothing essence of our green teas, thoughtfully
+                brewed to perfection and complemented by of boba pearls
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
     <footer></footer>
   </body>
 </html>
