@@ -6,13 +6,34 @@
     <title>The Tea House</title>
     <link rel="shortcut icon" href="images/banner.png" type="image/x-icon" />
 
-    <!-- TAILWIND + DAISYUI -->
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/6a50de9104.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
+    <!-- TAILWIND + DAISY UI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- TAILWIND CONFIG -->
     <script>
       tailwind.config = {
         theme: {
@@ -29,8 +50,29 @@
       };
     </script>
   </head>
-  <body>
-    <header></header>
+  <body class="bg-gradient-to-b from-white to-gray-50">
+    <header class="my-24 md:container md:mx-auto md:px-16 ">
+      <!-- BANNER -->
+      <div class="flex justify-center items-center">
+        <div class="space-y-7">
+          <h1 class="text-8xl font-extrabold text-color-dark">
+            It's good<br />Tea Time at The<br />Tea House
+          </h1>
+          <p class="text-md font-medium text-color-gray">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="btn btn-primary bg-gradient-to-r from-color-prim-1 to-color-prim-2 border-none text-white"
+          >
+            Explore More <img src="images/arrow.png" class="w-[16px]" />
+          </button>
+        </div>
+        <div class="relative">
+          <img src="images/banner.png" alt="" />
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
