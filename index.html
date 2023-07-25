@@ -51,7 +51,7 @@
     </script>
   </head>
   <body>
-    <header class="bg-gradient-to-b from-gray-50 to-white py-24">
+    <header class="bg-gradient-to-b from-gray-100 to-white py-24">
       <!-- BANNER -->
       <div
         class="flex flex-col lg:flex-row justify-center items-center gap-5 md:container md:mx-auto px-5 md:px-16"
@@ -71,18 +71,34 @@
           </button>
         </div>
         <div class="relative">
-          <img src="images/banner.png" alt="" />
+          <img src="images/banner.png" class="max-w-xs md:max-w-xl" />
+          <!-- BADGE -->
+          <div
+            class="-mt-20 ml-12 flex items-center justify-center gap-3 max-w-34 shadow-xl bg-white rounded-xl py-2 px-4 absolute"
+          >
+            <i class="fa-solid fa-star text-xl md:text-2xl text-yellow-400"></i>
+            <div>
+              <h3 class="text-xl md:text-3xl font-extrabold">5.00</h3>
+              <p class="text-sm md:text-base text-color-gray font-semibold">
+                Trust Pilot Rating
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
     <main class="md:container md:mx-auto px-5 md:px-16">
       <!-- FEATURED PRODUCTS -->
-      <section class="my-14 flex flex-col items-center space-y-5">
+      <section class="my-8 flex flex-col items-center space-y-5">
         <!-- SECTION TITLE/DESC -->
-        <h1 class="text-5xl font-extrabold text-color-dark text-center">
+        <h1
+          class="text-4xl md:text-5xl font-extrabold text-color-dark text-center"
+        >
           Our Featured Products
         </h1>
-        <p class="text-base font-medium text-color-gray max-w-4xl text-center">
+        <p
+          class="text-sm md:text-base font-medium text-color-gray max-w-4xl text-center"
+        >
           Indulge in the refreshing fusion of flavors with our signature
           Boba-infused iced teas at The Tea House – perfect companions for your
           tea time bliss!
@@ -101,7 +117,7 @@
               <h2 class="card-title font-extrabold text-2xl text-color-dark">
                 Milk Tea
               </h2>
-              <p class="font-semibold text-base text-color-gray">
+              <p class="font-semibold text-sm md:text-base text-color-gray">
                 Smooth and creamy, our milk tea is a delightful blend of premium
                 tea, fresh milk, and chewy boba pearls, creating a luscious and
                 satisfying beverage for every tea lover
@@ -117,7 +133,7 @@
               <h2 class="card-title font-extrabold text-2xl text-color-dark">
                 Black Tea
               </h2>
-              <p class="font-semibold text-base text-color-gray">
+              <p class="font-semibold text-sm md:text-base text-color-gray">
                 Experience the rich and robust taste of our carefully selected
                 black teas, perfectly steeped to deliver a bold and invigorating
                 sip with delightful boba pearls
@@ -133,7 +149,7 @@
               <h2 class="card-title font-extrabold text-2xl text-color-dark">
                 Lemon Tea
               </h2>
-              <p class="font-semibold text-base text-color-gray">
+              <p class="font-semibold text-sm md:text-base text-color-gray">
                 Zesty and invigorating, our lemon tea is a citrus-infused
                 sensation that pairs tangy notes with the chewy goodness of boba
                 for a refreshing and uplifting treat
@@ -149,11 +165,63 @@
               <h2 class="card-title font-extrabold text-2xl text-color-dark">
                 Green Tea
               </h2>
-              <p class="font-semibold text-base text-color-gray">
+              <p class="font-semibold text-sm md:text-base text-color-gray">
                 Discover the soothing essence of our green teas, thoughtfully
                 brewed to perfection and complemented by of boba pearls
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- PRESENT SECTION -->
+      <section class="my-16">
+        <div class="flex flex-col-reverse gap-12 lg:flex-row">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 flex-1">
+            <div
+              class="h-36 bg-gradient-to-tl from-[#FF8938] to-[#F00] opacity-10 rounded-lg"
+            ></div>
+            <div
+              class="row-span-2 bg-[#FDF7E9] py-14 px-8 rounded-lg flex items-center justify-center"
+            >
+              <img src="images/fresh-1.png" />
+            </div>
+            <div
+              class="row-span-2 bg-[#EFF2EC] py-10 px-11 rounded-lg flex items-center justify-center"
+            >
+              <img src="images/fresh-2.png" />
+            </div>
+            <div
+              class="h-36 bg-gradient-to-tl from-white to-[#D9D9D9] rounded-lg"
+            ></div>
+          </div>
+
+          <div class="flex flex-col flex-1">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-color-dark">
+              Great Tea, Freshly Presented
+            </h1>
+            <p
+              class="font-semibold text-sm md:text-base text-color-gray mb-10 mt-4"
+            >
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its customers because of good words of mouth
+              and unique customized service originated from Taiwan.
+            </p>
+            <h3 class="text-md md:text-xl font-extrabold text-color-dark">
+              Unique Taste
+            </h3>
+            <p class="font-semibold text-sm md:text-base text-color-gray">
+              A Unique and different style from other teapots gives a luxurious
+              and minimalist impression
+            </p>
+            <h3 class="text-md md:text-xl font-extrabold text-color-dark mt-10">
+              Premium Quality
+            </h3>
+            <p class="font-semibold text-sm md:text-base text-color-gray">
+              Premium Quality that makes tea more elegant and more durable when
+              you use it.
+            </p>
           </div>
         </div>
       </section>
