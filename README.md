@@ -9,6 +9,7 @@ The project's main task was to recreate a website layout demonstrated on Figma, 
 
 ## Table of Contents
 
+- [Work In Progress](#work-in-progress)
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
@@ -16,9 +17,14 @@ The project's main task was to recreate a website layout demonstrated on Figma, 
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
 
+
+## Work in Progress
+
+Please note that this project is currently a work in progress. Sections of the website may be incomplete, and features are still being developed. Updates will be made to enhance and finalize the project.
+
 ## Demo
 
-Explore the live demo of the project [here](https://shakeefahmedrakin.github.io/TeaHouse-Tailwind-daisyUI/).
+Explore the live demo of the current state of the project [here](https://shakeefahmedrakin.github.io/TeaHouse-Tailwind-daisyUI/).
 
 ## Features
 
